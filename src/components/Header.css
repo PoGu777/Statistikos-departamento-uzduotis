@@ -1,0 +1,46 @@
+.header-container {
+    width: 100%;
+    min-height: 200px;
+}
+
+.logo-container {
+    max-height: 200px;
+    max-width: 350px;
+    float: left;
+    margin-left: 3%;
+}
+
+.lsd-logo {
+    max-height: 200px;
+    max-width: 350px;
+}
+
+.navbar-container {
+    float: right;
+    width: 70%;
+    margin-top: 3%;
+}
+
+.nav {
+    float: left;
+    margin-left: 10%;
+    font-size: 30px;
+    scroll-behavior: smooth;
+    
+}
+
+.navbar {
+    width: 70%;
+    min-height: 100px;
+    list-style-type: none;
+    color: black;
+    list-style: none;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .navbar-container {
+        display: none;
+    }
+
+}

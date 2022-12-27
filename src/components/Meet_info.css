@@ -1,0 +1,17 @@
+.meet_info_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.meet_info_text {
+    margin:0%;
+}
+
+@media only screen and (min-width: 1500px) {
+    .meet_info_container {
+        margin-right: 0%;
+        font-size: 25px;
+    }
+}
